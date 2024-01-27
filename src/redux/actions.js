@@ -1,5 +1,8 @@
+import { ADD_TO_BASKET, REMOVE_FROM_BASKET } from './actionTypes';
+
 //Action creator
 export function addToBasket(product) {
+    console.log('Action created: ADD_TO_BASKET with payload:', product);
     return { type: ADD_TO_BASKET, payload: product };
 }
 export function removeFromBasket(productId) {
