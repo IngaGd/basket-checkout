@@ -1,4 +1,4 @@
-import { ADD_TO_BASKET, REMOVE_FROM_BASKET } from './actionTypes';
+import { ADD_TO_BASKET, REMOVE_FROM_BASKET, CLEAR_BASKET } from './actionTypes';
 
 //Action creator
 export function addToBasket(product) {
@@ -7,4 +7,7 @@ export function addToBasket(product) {
 }
 export function removeFromBasket(productId) {
     return { type: REMOVE_FROM_BASKET, payload: productId }
+}
+export function clearBasket() {
+    return { type: CLEAR_BASKET }
 }
