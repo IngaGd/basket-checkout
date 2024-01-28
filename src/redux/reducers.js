@@ -23,7 +23,7 @@ function basketReducer(state = initialState, action) {
             console.log('Updating state for CLEAR_BASKET');
             return {
                 ...state,
-                items: []
+                basket: []
             };
         default:
             return state;

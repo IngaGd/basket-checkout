@@ -7,6 +7,7 @@ export default function Header() {
             <nav>
                 <Link to="/">Shop</Link>
                 <Link to="/basket">Basket</Link>
+                <Link to="/checkout">Checkout</Link>
             </nav>
         </header>
     );
