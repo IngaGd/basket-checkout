@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { clearBasket } from "../redux/actions";
+import Product from "./Product";
 
 export default function Checkout() {
   const basketItems = useSelector((state) => state.basket.basket);
@@ -42,21 +43,22 @@ export default function Checkout() {
   };
 
   return (
-    <div>
-      <h2>Checkout</h2>
-      <div className="basket-list">
+    <div className="checkout">
+      <h2 className="heading">Checkout</h2>
+      <div className="product-list">
         {basketItems?.map((item) => (
-          <div key={item.id}>
-            <div>Product: {item.title}</div>
-            <div>Price: {item.price}</div>
-            <div>
-              <img src={item.img} alt={item.title} />
-            </div>
-          </div>
+          <Product
+            key={item.id}
+            title={item.title}
+            price={item.price}
+            img={item.img}
+          />
         ))}
       </div>
       <div>Total cost: ${totalCost}</div>
-      <button onClick={() => handleCheckout()}>Complete checkout</button>
+      <button onClick={() => handleCheckout()} className="btn-checkout">
+        Complete checkout
+      </button>
     </div>
   );
 }
