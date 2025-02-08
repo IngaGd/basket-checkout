@@ -1,0 +1,8 @@
+.basket {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 7rem min-content 1fr;
+  justify-items: center;
+  @include products;
+  @include checkout-btn;
+}

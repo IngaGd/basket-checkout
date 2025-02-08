@@ -1,0 +1,40 @@
+.header {
+  background-color: yellowgreen;
+  padding: 2rem 10rem 2rem 10rem;
+  display: flex;
+  .nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .link-shop,
+    .link-basket {
+      text-decoration: none;
+      color: black;
+      padding: 0.7rem 2rem 0.7rem 2rem;
+      &:hover {
+        background-color: pink;
+        border-radius: 3px;
+        transition: all 0.3s;
+      }
+    }
+    .link-basket {
+      position: relative;
+      .cart-lenght {
+        position: absolute;
+        background-color: pink;
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 50%;
+        border: 1px solid black;
+        top: -1.2rem;
+        left: 3rem;
+
+        .lenght {
+          position: absolute;
+          top: -0.3rem;
+          left: 0.6rem;
+        }
+      }
+    }
+  }
+}

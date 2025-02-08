@@ -1,0 +1,7 @@
+.products {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 7rem min-content;
+  justify-items: center;
+  @include products;
+}

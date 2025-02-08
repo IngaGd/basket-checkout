@@ -1,0 +1,8 @@
+.checkout {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 5rem min-content 1fr 1fr;
+  @include products;
+  justify-items: center;
+  @include checkout-btn;
+}
