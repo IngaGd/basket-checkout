@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
-    return (
-        <header>
-            <nav>
-                <Link to="/">Shop</Link>
-                <Link to="/basket">Basket</Link>
-                <Link to="/checkout">Checkout</Link>
-            </nav>
-        </header>
-    );
+  return (
+    <header>
+      <nav>
+        <Link to="/">Shop</Link>
+        <Link to="/basket">Basket</Link>
+        {/* <Link to="/checkout">Checkout</Link> */}
+      </nav>
+    </header>
+  );
 }
