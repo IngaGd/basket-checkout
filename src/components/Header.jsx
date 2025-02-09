@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="header">
       <nav className="nav">
-        <Link to="/" className="link-shop">
+        <Link to="/shop" className="link-shop">
           Shop
         </Link>
         <Link to="/basket" className="link-basket">

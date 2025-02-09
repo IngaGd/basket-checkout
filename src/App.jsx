@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<ProductList />} />
+        <Route path="/shop" element={<ProductList />} />
         <Route path="/basket" element={<Basket />} />
         <Route path="/checkout" element={<Checkout />} />
       </Routes>
