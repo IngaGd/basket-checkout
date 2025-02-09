@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/basket-checkout/static/css/main.702a90a2.css",
+    "main.js": "/basket-checkout/static/js/main.a384468d.js",
+    "static/js/787.fe142145.chunk.js": "/basket-checkout/static/js/787.fe142145.chunk.js",
+    "index.html": "/basket-checkout/index.html",
+    "main.702a90a2.css.map": "/basket-checkout/static/css/main.702a90a2.css.map",
+    "main.a384468d.js.map": "/basket-checkout/static/js/main.a384468d.js.map",
+    "787.fe142145.chunk.js.map": "/basket-checkout/static/js/787.fe142145.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.702a90a2.css",
+    "static/js/main.a384468d.js"
+  ]
+}
